@@ -8,6 +8,9 @@ Thumbs.db
 # add dir from maven
 java-datastruc-vscode-viz/.settings/
 
+# for json gen
+java-datastruc-vscode-viz/before-data-struc.json
+java-datastruc-vscode-viz/after-data-struc.json
 # add maven .gitignore
  
 */target/
