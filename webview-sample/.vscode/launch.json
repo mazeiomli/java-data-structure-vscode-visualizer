@@ -6,12 +6,23 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
+			"type": "java",
+			"name": "CodeLens (Launch) - Runner",
+			"request": "launch",
+			"mainClass": "javaSrc.Runner",
+			"projectName": "webview-sample_c590a8c0"
+		},
+		{
 			"name": "Run Extension",
 			"type": "extensionHost",
 			"request": "launch",
 			"runtimeExecutable": "${execPath}",
-			"args": ["--extensionDevelopmentPath=${workspaceRoot}"],
-			"outFiles": ["${workspaceFolder}/out/**/*.js"],
+			"args": [
+				"--extensionDevelopmentPath=${workspaceRoot}"
+			],
+			"outFiles": [
+				"${workspaceFolder}/out/**/*.js"
+			],
 			"preLaunchTask": "npm: watch"
 		}
 	]

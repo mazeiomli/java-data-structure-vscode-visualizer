@@ -1,3 +1,5 @@
+package javaSrc;
+
 public class LinkedListNode{
 
     private int data;
