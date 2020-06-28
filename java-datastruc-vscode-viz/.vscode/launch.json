@@ -5,15 +5,13 @@
 {
 	"version": "0.2.0",
 	"configurations": [
-		/*
-		comment out. want extension to run, not java
 		{
 			"type": "java",
 			"name": "CodeLens (Launch) - Runner",
 			"request": "launch",
 			"mainClass": "javaSrc.Runner",
-			"projectName": "webview-sample_c590a8c0"
-		},*/
+			"projectName": "java-datastruc-vscode-viz"
+		},
 		{
 			"name": "Run Extension",
 			"type": "extensionHost",
