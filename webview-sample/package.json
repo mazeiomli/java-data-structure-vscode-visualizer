@@ -39,7 +39,10 @@
 		"lint": "eslint . --ext .ts,.tsx",
 		"watch": "tsc -w -p ./"
 	},
-	"dependencies": {},
+	"dependencies": {
+		"python-shell": "^2.0.1",
+		"viz.js": "^2.1.2"
+	},
 	"devDependencies": {
 		"@types/node": "^12.12.0",
 		"@typescript-eslint/eslint-plugin": "^3.0.2",
