@@ -1,6 +1,9 @@
 # Visualize Java Data Structures in VSCode
 
-**Project is very incomplete. Pardon my dust.**
+**Project is very incomplete and has not been fully coded. Pardon my dust.**
+
+[Link to Demo](https://youtu.be/eI3o2CyS2ug)
+
 
 Coding complex data structures is difficult, especially due to the lack of visuals. To make learning data structures and algorithms easier, this extension visualizes data structures before and after they are manipulated. Extension currently only supports Java.
 
