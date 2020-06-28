@@ -10,6 +10,21 @@ const cats = {
 export function activate(context: vscode.ExtensionContext) {
 	context.subscriptions.push(
 		vscode.commands.registerCommand('catCoding.start', () => {
+			// code here gets executed when command executed
+			var PythonShell = require('python-shell');
+			// // TODO: add type annotation to err and results
+
+			PythonShell.runString('x=1+1;print(x)', null, function (err: any) {
+				if (err) throw err;
+				console.log('finished');
+			  });
+
+			// PythonShell.run('json-adjlist-to-png.py', null, function (err: any) {
+			// 	if (err) throw err;
+			// 	console.log('finished');
+			//   });
+
+			
 			CatCodingPanel.createOrShow(context.extensionPath);
 		})
 	);
