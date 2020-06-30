@@ -4,6 +4,7 @@
 
 [Link to Demo](https://youtu.be/eI3o2CyS2ug)
 
+This project was featured during the closing ceremony of the 2020 VSCode Hackathon! [Link to demo in livestream recording](https://www.youtube.com/watch?v=qknbai1Dntc&t=3398s)
 
 Coding complex data structures is difficult, especially due to the lack of visuals. To make learning data structures and algorithms easier, this extension visualizes data structures before and after they are manipulated. Extension currently only supports Java.
 
