@@ -45,9 +45,12 @@ public class ConvertGraphlikeToJSON{
 			if(curr.getNext() != null){
 				adjList.add(curr.getNext().getUID());
 			}
+			/* 
+			let adjlist be null if nothing
 			else{
 				adjList.add("null");
 			}
+			*/
 			//forgot this line
 			nodeData.put("adjList", adjList);
 			// issue: put wrong variable

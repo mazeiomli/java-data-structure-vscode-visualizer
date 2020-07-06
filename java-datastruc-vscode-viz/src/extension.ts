@@ -19,7 +19,7 @@ export function activate(context: vscode.ExtensionContext) {
 				console.log('finished');
 			  });
 
-			// PythonShell.run('json-adjlist-to-png.py', null, function (err: any) {
+			// PythonShell.run('viz-json.py', null, function (err: any) {
 			// 	if (err) throw err;
 			// 	console.log('finished');
 			//   });
