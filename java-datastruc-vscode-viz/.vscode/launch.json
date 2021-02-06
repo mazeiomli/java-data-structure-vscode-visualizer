@@ -5,13 +5,13 @@
 {
 	"version": "0.2.0",
 	"configurations": [
-		// {
-		// 	"type": "java",
-		// 	"name": "CodeLens (Launch) - Runner",
-		// 	"request": "launch",
-		// 	"mainClass": "javaSrc.Runner",
-		// 	"projectName": "java-datastruc-vscode-viz"
-		// },
+		{
+			"type": "java",
+			"name": "Launch Runner",
+			"request": "launch",
+			"mainClass": "javaSrc.Runner",
+			"projectName": "java-datastruc-vscode-viz"
+		},
 		{
 			"name": "Run Extension",
 			"type": "extensionHost",

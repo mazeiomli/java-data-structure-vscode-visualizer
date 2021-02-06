@@ -37,7 +37,7 @@ import json
 # has a type different than the expected type
 # If all types match, function returns nothing
 def valid_format(graph_rep_pyjson, filename) -> None:
-	for k,v in graph_rep_pyjson:
+	for k,v in graph_rep_pyjson.items():
 		if type(k) is not str:
 			raise TypeError("in {} nodeID: {} is not str but expected to be of type str".format(filename, str(k)))
 		if type(v) is not dict or v["data"] is not int or v["adjList"] is not list:
@@ -65,7 +65,9 @@ def parse_json(filename):
 		raise err
 	except Exception as err:
 		raise err
-	valid_format(parsed, filename)
+	# format checking causing issues
+	# omit for now
+	# valid_format(parsed, filename)
 	return parsed
 
 def create_graph(graph_rep_pyjson, name):
@@ -74,10 +76,10 @@ def create_graph(graph_rep_pyjson, name):
 	# edge creation works if endpoints nodes
 	# not created yet, I think
 	# to be safe, create nodes first then add edges
-	for k,v in graph_rep_pyjson:
-		dot.node(k, label = v["data"])
-	for k,v in graph_rep_pyjson:
-		dot.edges([(k, neighborID) for neighborID in v["adjList"]])
+	for k,v in graph_rep_pyjson.items():
+		dot.node(k, label = str(v['data']))
+	for k,v in graph_rep_pyjson.items():
+		dot.edges([(k, neighborID) for neighborID in v['adjList']])
 	return dot
 
 """
@@ -87,7 +89,7 @@ TODO: consider specifying directory, cleanup, quiet in render
 """
 def render_graphs(dot_list: list):
 	for dot in dot_list:
-		dot.render(filename = dot.name + ".png", format = "png")
+		dot.render(filename = dot.name, format = "png")
 
 def main():
 	print("this is main")
