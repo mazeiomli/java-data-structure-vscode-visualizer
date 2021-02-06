@@ -17,7 +17,7 @@ public class Runner{
 	public static void main(String[] args) {
 		// Create LinkedList
 		LinkedListNode n3 = new LinkedListNode("n3", 3);
-        LinkedListNode n2 = new LinkedListNode("n2", 2, n3);
+		LinkedListNode n2 = new LinkedListNode("n2", 2, n3);
 		LinkedListNode head = new LinkedListNode("n1", 1, n2);
 		// visualize
 		// convert data struc to json
