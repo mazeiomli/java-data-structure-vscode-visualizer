@@ -1,6 +1,8 @@
 # Java Data Structure VSCode Visualizer
 **Project is very incomplete and has not been fully coded. Pardon my dust.**
 
+**Please see the java-datastruc-vscode-viz directory for the project**
+
 This project creates visualizations (as PNG format images) of Java data structures and displays the image in VSCode.
 
 [Link to Demo](https://youtu.be/eI3o2CyS2ug)
