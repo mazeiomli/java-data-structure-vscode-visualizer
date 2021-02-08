@@ -5,7 +5,11 @@
 
 This project creates visualizations (as PNG format images) of Java data structures and displays the image in VSCode.
 
-[Link to Demo](https://youtu.be/eI3o2CyS2ug)
+[Link to Design Doc](https://docs.google.com/document/d/1F2DXoAG7LVvDWQIwSuYcXOp1khOrGHhDbS7OSZuCBSs/edit?usp=sharing)
+
+[Link to Code Demo](https://youtu.be/XP5JkCsKPy0)
+
+[Link to Hackathon Demo](https://youtu.be/eI3o2CyS2ug)
 
 This project was featured during the closing ceremony of the 2020 VSCode Hackathon! [Link to demo in livestream recording](https://www.youtube.com/watch?v=qknbai1Dntc&t=3398s)
 
